@@ -1,0 +1,148 @@
+/* font-family: 'Castoro', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Castoro", serif;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #075e61;
+  font-size: 1.7rem;
+  text-align: justify;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+/* Navigation */
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+}
+.nav a {
+  display: block;
+  float: left;
+  font-family: "Castoro", serif;
+  padding: 15px;
+  font-size: 1.4rem;
+  color: #000;
+}
+.nav a:hover {
+  background-color: #0d7377;
+  opacity: 0.6;
+  color: #eeeeee;
+  border-radius: 30px 30px;
+  transition: ease-in 0.7s;
+}
+.top-nav-right {
+  float: right;
+  margin-top: 25px;
+  margin-right: 80px;
+}
+.headers {
+  color: #075e61;
+  font-size: 3.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#logo {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+/* Quick About */
+.intro {
+  background-color: #32e0c4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+.foot {
+  background-color: #212121;
+  min-height: 300px;
+}
+.foot p {
+  text-align: center;
+}
+.foot ul li {
+  display: inline;
+}
+.fab {
+  color: #32e0c4;
+  padding: 3%;
+  margin-top: 3%;
+}
+.email {
+  color: #fff;
+  margin-bottom: 6%;
+  font-weight: bold;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 5%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
