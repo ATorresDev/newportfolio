@@ -42,6 +42,18 @@ a {
   width: 70%;
   margin: auto;
 }
+img {
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+img:hover {
+  border-radius: 10px;
+  transform: scale(1.1, 1.1);
+}
+.project-header {
+  margin-bottom: 5%;
+  text-align: left;
+}
 
 /* Navigation */
 .nav {
@@ -80,6 +92,7 @@ a {
   margin-top: 25px;
   margin-left: 80px;
 }
+
 /* Quick About */
 .intro {
   background-color: #32e0c4;
@@ -115,10 +128,10 @@ a {
   padding: 5px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create columns that floats next to each other */
 .column {
   float: left;
-  width: 33.3%;
+  width: 50%;
   margin-bottom: 5%;
 }
 
