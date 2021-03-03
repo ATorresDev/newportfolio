@@ -1,161 +1,120 @@
-/* font-family: 'Castoro', serif;
-font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Yanone+Kaffeesatz&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body,
 html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: "Castoro", serif;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  line-height: 1.5;
-  letter-spacing: 1;
+  background-color: #d3e3ea;
+  color: #1e5c6d;
+  font-family: "Lato";
   font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-}
-p {
-  color: #075e61;
-  font-size: 1.7rem;
-  text-align: justify;
-}
-ul,
-li,
 a {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
   text-decoration: none;
 }
-.container {
-  width: 70%;
-  margin: auto;
+.name-text {
+  font-size: 55px;
 }
-img {
-  border-radius: 10px;
-  margin-bottom: 5%;
-}
-img:hover {
-  border-radius: 10px;
-  transform: scale(1.1, 1.1);
-}
-.project-header {
-  margin-bottom: 5%;
-  text-align: left;
+.line {
+  height: 2px;
+  width: 85%;
+  background-color: #0b404e;
 }
 
-/* Navigation */
+.main-img {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1477835/pexels-photo-1477835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.header-text {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+}
+.header-text h2 {
+  font-size: 2.3em;
+  font-weight: lighter;
+}
+.flex {
+  display: flex;
+}
+.header {
+  flex: 60%;
+}
+.main-nav {
+  flex: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav h1 {
+  font-family: "Yanone Kaffeesatz";
+}
 .nav {
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-  position: fixed;
+  display: flex;
 }
 .nav a {
-  display: block;
-  float: left;
-  font-family: "Castoro", serif;
-  padding: 15px;
-  font-size: 1.4rem;
-  color: #000;
+  padding: 5px;
+  margin: 0px 3px 20px 3px;
+  color: #1e5c6d;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 .nav a:hover {
-  background-color: #0d7377;
-  opacity: 0.6;
-  color: #eeeeee;
-  border-radius: 30px 30px;
-  transition: ease-in 0.7s;
-}
-.top-nav-right {
-  float: right;
-  margin-top: 25px;
-  margin-right: 80px;
-}
-.headers {
-  color: #075e61;
-  font-size: 3.5rem;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-#logo {
-  margin-top: 25px;
-  margin-left: 80px;
-}
-
-/* Quick About */
-.intro {
-  background-color: #32e0c4;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* Footer */
-.foot {
-  background-color: #212121;
-  min-height: 300px;
-}
-.foot p {
-  text-align: center;
-}
-.foot ul li {
-  display: inline;
-}
-.fab {
-  color: #32e0c4;
-  padding: 3%;
-  margin-top: 3%;
-}
-.email {
+  background-color: #0b404e;
   color: #fff;
-  margin-bottom: 6%;
-  font-weight: bold;
 }
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 5px;
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
-
-/* Create columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  margin-bottom: 5%;
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+.fas,
+.fab {
+  font-size: 1.8em;
+  padding: 15px;
+  margin: 5px 5px;
+  color: #1e5c6d;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
+@media only screen and (max-width: 1024px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .header-text {
+    padding: 45px;
+  }
+  .line {
+    width: 50%;
   }
 }
