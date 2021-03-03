@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Yanone+Kaffeesatz&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  background-color: #d3e3ea;
+  color: #1e5c6d;
+  font-family: "Lato";
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 90%;
+  margin: auto;
+}
+.name-text {
+  font-size: 55px;
+}
+.line {
+  height: 2px;
+  width: 85%;
+  background-color: #0b404e;
+}
+
+.main-img {
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+.header-text {
+  text-align: center;
+  color: #1e5c6d;
+  padding: 15px;
+  margin: 20px 0;
+}
+.header-text h2 {
+  font-size: 2.3em;
+  font-weight: lighter;
+}
+.flex {
+  display: flex;
+}
+.header {
+  flex: 65%;
+  height: 100vh;
+  overflow: hidden;
+}
+.main-nav {
+  flex: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav h1 {
+  font-family: "Yanone Kaffeesatz";
+}
+.nav {
+  display: flex;
+}
+.nav a {
+  padding: 5px;
+  margin: 0px 3px 20px 3px;
+  color: #1e5c6d;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav a:hover {
+  background-color: #0b404e;
+  color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.fas,
+.fab {
+  font-size: 1.8em;
+  padding: 15px;
+  margin: 5px 5px;
+  color: #1e5c6d;
+}
+
+.contactme {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-icon {
+  font-size: 2.8em;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+/* Media queries */
+
+@media only screen and (max-width: 1024px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .line {
+    width: 50%;
+  }
+  .contactme {
+    margin-bottom: 60px;
+  }
+}
