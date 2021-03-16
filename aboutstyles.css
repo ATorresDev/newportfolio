@@ -60,6 +60,8 @@ hr {
 }
 .header {
   flex: 65%;
+  height: 100vh;
+  overflow: hidden;
 }
 .main-nav {
   flex: 35%;
@@ -123,6 +125,14 @@ hr {
     margin:0;
     padding:0;
   }
+  .text p{
+    margin:0 auto;
+    padding:5%;
+  }
+  .header-text.text{
+    margin:0;
+    padding:0;
+  }
   .flex {
     display: flex;
     flex-direction: column;
@@ -140,7 +150,7 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 10%;
+    
   }
   
   .line {

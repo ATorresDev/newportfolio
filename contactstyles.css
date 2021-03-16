@@ -109,6 +109,10 @@ hr {
     margin:0;
     padding:0;
   }
+  .header-text.text {
+    margin:0;
+    padding:0;
+  }
   .flex {
     display: flex;
     flex-direction: column;
@@ -118,7 +122,8 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 10%;
+    margin-top:0;
+    
   }
   .nav {
     display: flex;
