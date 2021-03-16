@@ -119,6 +119,12 @@ hr {
     flex-direction: column;
     width: 100%;
   }
+  .main-img{
+    height: auto;
+  }
+  .main-nav{
+    height: auto;
+  }
   .nav {
     display: flex;
     flex-direction: column;

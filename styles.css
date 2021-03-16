@@ -104,12 +104,17 @@ a {
     flex-direction: column;
     width: 100%;
   }
+  .main-nav{
+    height: auto;
+  }
+  .main-img{
+    height: auto;
+  }
   .nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
-    
   }
   .icons {
     display: flex;

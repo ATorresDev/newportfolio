@@ -125,6 +125,12 @@ hr {
     margin-top:0;
     
   }
+  .main-img{
+    height: auto;
+  }
+  .main-nav{
+    height: auto;
+  }
   .nav {
     display: flex;
     flex-direction: column;
