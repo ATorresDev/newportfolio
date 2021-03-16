@@ -117,15 +117,15 @@ hr {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    margin-bottom: 30px;
+    
   }
   .icons {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    
   }
   .header-text {
-    padding: 45px 0;
+    margin: 45px 0;
   }
   .line {
     width: 50%;
