@@ -108,6 +108,7 @@ hr {
 }
 .about-icon {
   display: flex;
+  justify-content: center;
 }
 .about-icon .tech-skill {
   width: 50%;
