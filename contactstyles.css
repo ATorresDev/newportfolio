@@ -92,11 +92,9 @@ hr {
   color: #1e5c6d;
 }
 
-.contactme {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+.contactme{
   justify-content: space-around;
+  align-items: center;
 }
 .contact-icon {
   font-size: 2.8em;
@@ -120,12 +118,12 @@ hr {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    margin-bottom: 30px;
+  
   }
   .icons {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+  
   }
   .header-text {
     padding: 45px 0;
