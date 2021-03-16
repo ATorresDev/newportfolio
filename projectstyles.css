@@ -106,7 +106,7 @@ hr {
 
 /* Media queries */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 500px) {
   .flex {
     display: flex;
     flex-direction: column;
@@ -117,24 +117,22 @@ hr {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    
+    margin-bottom: 30px;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   .icons {
     display: flex;
     flex-direction: column;
-    
+    margin-top: 30px;
   }
   .header-text {
-    margin: 45px 0;
+    padding: 45px 0;
   }
   .line {
     width: 50%;
-  }
-  .projects {
-    display: flex;
-    flex-direction: column;
-  }
-  .project {
-    width: 100%;
   }
 }
