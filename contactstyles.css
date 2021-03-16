@@ -93,6 +93,7 @@ hr {
 }
 
 .contactme{
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -111,22 +112,18 @@ hr {
   .contactme {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin-bottom: 10%;
   }
   .nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
-  
   }
   .icons {
     display: flex;
     flex-direction: column;
   
-  }
-  .header-text {
-    padding: 45px 0;
   }
   .line {
     width: 50%;
