@@ -128,10 +128,7 @@ hr {
     flex-direction: column;
     width: 100%;
   }
-  .main-nav {
-    display: flex;
-    flex-direction: column;
-  }
+  
   .nav {
     display: flex;
     flex-direction: column;
