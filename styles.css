@@ -95,6 +95,10 @@ a {
 /* Media queries */
 
 @media only screen and (max-width: 500px) {
+  * {
+    margin:0;
+    padding:0;
+  }
   .flex {
     display: flex;
     flex-direction: column;
