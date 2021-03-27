@@ -106,23 +106,26 @@ hr {
 
 /* Media queries */
 
-@media only screen and (max-width: 500px) {
-  *, body, html,a {
-    margin:0;
-    padding:0;
+@media only screen and (max-width: 904px) {
+  *,
+  body,
+  html,
+  a {
+    margin: 0;
+    padding: 0;
   }
   .nav a {
-    padding:0;
+    padding: 0;
   }
   .flex {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .main-img{
+  .main-img {
     height: auto;
   }
-  .main-nav{
+  .main-nav {
     height: auto;
   }
   .nav {
@@ -141,9 +144,9 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding:0;
-    margin:0;
-   }
+    padding: 0;
+    margin: 0;
+  }
   .line {
     width: 50%;
   }
